@@ -1,0 +1,168 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "best da hood script supported by solara= solara hub",
+   LoadingTitle = "Rayfield Interface Suite",
+   LoadingSubtitle = "by f_ares",
+   ConfigurationSaving = {
+      Enabled = fals,
+      FolderName = nil, -- Create a custom folder for your hub/game
+      FileName = "BEST HUB"
+   },
+   Discord = {
+      Enabled = false,
+      Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
+      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+   },
+   KeySystem = false, -- Set this to true to use our key system
+   KeySettings = {
+      Title = "Untitled",
+      Subtitle = "Key System",
+      Note = "No method of obtaining the key is provided",
+      FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+      SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = {"Hello"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+   }
+})
+
+local mainTab = Window:CreateTab("main", nil) -- Title, Image
+local Section = mainTab:CreateSection("main")
+
+Rayfield:Notify({
+   Title = "loaded enjoy kid",
+   Content = "im da best",
+   Duration = 6.5,
+   Image = nil,
+   Actions = { -- Notification Buttons
+      Ignore = {
+         Name = "Okay!",
+         Callback = function()
+         print("The user tapped Okay!")
+      end
+   },
+},
+})
+
+local Button = mainTab:CreateButton({
+   Name = "swagmode",
+   Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+   end,
+ })
+
+local controlTab = Window:CreateTab("control", nil) -- Title, Image
+local Section = controlTab:CreateSection("control")
+
+local Button = controlTab:CreateButton({
+   Name = "control",
+   Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/yuvic123/s/main/s'))()
+   end,
+})
+
+local standTab = Window:CreateTab("stand", nil) -- Title, Image
+local Section = standTab:CreateSection("stand")
+
+local Button =standTab:CreateButton({
+   Name = "stand",
+   Callback = function()
+        getgenv().settings = {
+    accounts = {
+        ["Stand Creator"] = "enter your main account user id here",
+        ["Stand Core"] = game.Players.LocalPlayer.UserId,
+    },
+    commands = {
+        ["Fix Script"] = "!",
+        ["Summon"] = "summon",
+        ["Auto Save Creator"] = "asave",
+        ["Kill Player"] = "kill",
+        ["Knock Player"] = "knock",
+        ["Loop Kill Player"] = "loopkill",
+        ["Bring Player"] = "bring",
+        ["Drop Player"] = "drop",
+        ["Loop Knock Player"] = "loopknock",
+        ["Reset Stand"] = "reset",
+        ["Bend Player"] = "bend",
+        ["Gun Bring Player"] = "gbring",
+        ["Loop Gun Knock Player"] = "loopgknock",
+        ["Loop Gun Kill Player"] = "loopgkill",
+        ["Gun Kill Player"] = "gkill",
+        ["Whitelist Player"] = "whitelist",
+        ["Unwhitelist Player"] = "unwhitelist",
+    }
+}
+loadstring(game:HttpGet('https://paste.fo/raw/ed641c3b4258'))()
+   end,
+})
+
+local mimicTab = Window:CreateTab("mimic", nil) -- Title, Image
+local Section = mimicTab:CreateSection("mimic")
+
+local Button =mimicTab:CreateButton({
+   Name = "mimic",
+   Callback = function()
+        local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "gun simulator",
+   LoadingTitle = "Rayfield Interface Suite",
+   LoadingSubtitle = "by f_ares",
+   ConfigurationSaving = {
+      Enabled = fals,
+      FolderName = nil, -- Create a custom folder for your hub/game
+      FileName = "BEST HUB"
+   },
+   Discord = {
+      Enabled = false,
+      Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
+      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+   },
+   KeySystem = false, -- Set this to true to use our key system
+   KeySettings = {
+      Title = "Untitled",
+      Subtitle = "Key System",
+      Note = "No method of obtaining the key is provided",
+      FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+      SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = {"Hello"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+   }
+})
+
+local mainTab = Window:CreateTab("main", nil) -- Title, Image
+local Section = mainTab:CreateSection("main")
+
+Rayfield:Notify({
+   Title = "loaded enjoy kid",
+   Content = "im da best",
+   Duration = 6.5,
+   Image = nil,
+   Actions = { -- Notification Buttons
+      Ignore = {
+         Name = "Okay!",
+         Callback = function()
+         print("The user tapped Okay!")
+      end
+   },
+},
+})
+
+local Button = mainTab:CreateButton({
+   Name = "swagmode",
+   Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+   end,
+ })
+
+local controlTab = Window:CreateTab("control", nil) -- Title, Image
+local Section = controlTab:CreateSection("control")
+
+local Button = controlTab:CreateButton({
+   Name = "control",
+   Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/yuvic123/s/main/s'))()
+   end,
+})
+   end,
+})
